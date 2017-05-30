@@ -1,0 +1,24 @@
+<h2>Listing answers</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th>Question</th>
+
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+<%= for answer <- @answers do %>
+    <tr>
+      <td><%= answer.text %></td>
+      <td><%= answer.question_id %></td>
+
+      <td class="text-right">
+        <%= link "Show", to: answer_path(@conn, :show, answer), class: "btn btn-default btn-xs" %>
+      </td>
+    </tr>
+<% end %>
+  </tbody>
+</table>

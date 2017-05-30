@@ -1,0 +1,24 @@
+<h2>Listing Objects, Attributes and links</h2>
+
+<h4>Objects</h4>
+<ul>
+<%= for object <- @objects do %>
+    <li><%= object.id %>: <%= object.name %></li>
+<% end %>
+</ul>
+
+<h4>Attributes</h4>
+<ul>
+<%= for attribute <- @attributes do %>
+    <li><%= attribute.id %>: <%= attribute.name %></li>
+<% end %>
+</ul>
+
+<h4>Links</h4>
+<ul>
+<%= for link <- @links do %>
+    <li><%= link.value %> between obj <%= link.object_id %> and attr <%= link.attribute_id %></li>
+<% end %>
+</ul>
+
+<%= link "Export to csv", to: fca_path(@conn, :csv) %>

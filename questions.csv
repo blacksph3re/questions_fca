@@ -1,0 +1,5 @@
+0,Object,Name any object
+0,Object,Name an object that has the property {randattr}
+1,Attribute,Name an attribute that you would associate with object {randobj}
+2,Relation,Does {randobj} have {randattr} as an object?
+3,Implication,Is it true that {randimpl_a} implies {randimpl_b}? If not, name an object that has the property {randimpl_a} but not {randimpl_b}.

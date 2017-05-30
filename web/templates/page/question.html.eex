@@ -1,0 +1,24 @@
+<h2>Answer question</h2>
+
+<ul>
+
+  <li>
+    <strong>Header:</strong>
+    <%= @question.header %>
+  </li>
+
+  <li>
+    <strong>Question:</strong>
+    <%= @question.text %>
+  </li>
+
+</ul>
+
+<%= form_for @answer, page_path(@conn, :submitanswer), fn f -> %>
+  <label>
+    Your answer: <%= text_input f, :text %>
+  </label>
+
+  <%= hidden_input f, :question_id, value: @question.id %>
+  <%= submit "Submit" %>
+<% end %>

@@ -1,0 +1,18 @@
+<h2>Show answer</h2>
+
+<ul>
+
+  <li>
+    <strong>Text:</strong>
+    <%= @answer.text %>
+  </li>
+
+  <li>
+    <strong>Question:</strong>
+    <%= @answer.question_id %>
+    <%= link "See", to: question_path(@conn, :show, @answer.question_id) %>
+  </li>
+
+</ul>
+
+<%= link "Back", to: answer_path(@conn, :index) %>
