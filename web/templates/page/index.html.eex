@@ -1,5 +1,6 @@
 <div class="jumbotron">
   <h2>Questions app!</h2>
+  <%= link "Get started", to: page_path(@conn, :question, category: -1), class: "btn btn-default btn-xs" %>
   <%= link "Question for object", to: page_path(@conn, :question, category: 0), class: "btn btn-default btn-xs" %>
   <%= link "Question for attribute", to: page_path(@conn, :question, category: 1), class: "btn btn-default btn-xs" %>
   <%= link "Question for relation", to: page_path(@conn, :question, category: 2), class: "btn btn-default btn-xs" %>

@@ -19,8 +19,8 @@ defmodule QuestionsFca.Router do
     get "/", PageController, :index
     get "/askme", PageController, :question
     post "/submitanswer", PageController, :submitanswer
-    resources "/questions", QuestionController
-    resources "/answers", AnswerController, only: [:index, :show]
+    resources "/questions", QuestionController, only: [:index, :show, :delete]
+    resources "/answers", AnswerController, only: [:index, :show, :delete]
     get "/fca", FcaController, :index
     get "/fca/table.csv", FcaController, :csv
   end

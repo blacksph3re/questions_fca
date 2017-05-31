@@ -17,6 +17,8 @@
 
       <td class="text-right">
         <%= link "Show", to: answer_path(@conn, :show, answer), class: "btn btn-default btn-xs" %>
+        <%= link "Delete", to: answer_path(@conn, :delete, answer), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
+
       </td>
     </tr>
 <% end %>

@@ -31,7 +31,6 @@
 
       <td class="text-right">
         <%= link "Show", to: question_path(@conn, :show, question), class: "btn btn-default btn-xs" %>
-        <%= link "Edit", to: question_path(@conn, :edit, question), class: "btn btn-default btn-xs" %>
         <%= link "Delete", to: question_path(@conn, :delete, question), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %>
       </td>
     </tr>
@@ -39,4 +38,3 @@
   </tbody>
 </table>
 
-<%= link "New question", to: question_path(@conn, :new) %>

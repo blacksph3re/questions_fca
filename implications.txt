@@ -1,0 +1,1 @@
+(#{"thrash metal"} ⟶ #{"has guitars" "loud"})(#{"loud"} ⟶ #{"has guitars"})(#{"has guitars"} ⟶ #{"loud"})(#{"has guitars" "hardrock" "loud" "thrash metal"} ⟶ #{"experimental"})(#{"experimental"} ⟶ #{"hardrock"})(#{"experimental" "has guitars" "hardrock" "loud"} ⟶ #{"thrash metal"})

@@ -21,4 +21,24 @@
 <% end %>
 </ul>
 
+<h4>Implications</h4>
+<ul>
+<%= for implication <- @implications do %>
+    <li>
+      {<%= for {item, idx} <- Enum.with_index(implication.first) do %>
+        <%= item %>
+        <%= if idx != Enum.count(implication.first)-1 do %>
+          ,&nbsp;
+        <%= end %>
+      <% end %>} implies
+      {<%= for {item, idx} <- Enum.with_index(implication.second) do %>
+        <%= item %>
+        <%= if idx != Enum.count(implication.second)-1 do %>
+          ,&nbsp;
+        <%= end %>
+      <% end %>}
+    </li>
+<% end %>
+</ul>
+
 <%= link "Export to csv", to: fca_path(@conn, :csv) %>

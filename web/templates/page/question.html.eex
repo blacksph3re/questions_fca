@@ -20,5 +20,6 @@
   </label>
 
   <%= hidden_input f, :question_id, value: @question.id %>
-  <%= submit "Submit" %>
+  <%= submit "Submit", class: "btn btn-default" %>
+  <%= link "Get another question", to: page_path(@conn, :question, category: @question.category), class: "btn btn-default" %>
 <% end %>

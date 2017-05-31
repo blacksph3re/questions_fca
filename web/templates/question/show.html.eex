@@ -19,5 +19,4 @@
 
 </ul>
 
-<%= link "Edit", to: question_path(@conn, :edit, @question) %><br>
 <%= link "Back", to: question_path(@conn, :index) %>

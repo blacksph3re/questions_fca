@@ -31,14 +31,14 @@ defmodule QuestionsFca.PageController do
 
     case Repo.insert(changeset) do
       {:ok, answer} ->
-      	answer
+      	answer = answer
       	|> Repo.preload(:question)
       	|> Map.update!(:question, &preload_question_assoc(&1))
       	|> store_fca
 
         conn
-        |> put_flash(:info, "Answer created successfully.")
-        |> redirect(to: page_path(conn, :index))
+        |> put_flash(:info, "Answer " <> answer.text <> " saved.")
+        |> redirect(to: page_path(conn, :question, category: answer.question.category))
       {:error, _changeset} ->
         conn
         |> put_flash(:info, "Something went wrong :/")
@@ -59,7 +59,11 @@ defmodule QuestionsFca.PageController do
   end
 
   defp randimpl do
-  	%{a: "asdasd", b: "asdasdasd"}
+
+  	impl = QuestionsFca.FcaController.calc_implications()
+  	|> Enum.random
+  	%{a: Kernel.inspect(impl.first), b: Kernel.inspect(impl.second), first: JSON.encode!(impl.first), second: JSON.encode!(impl.second)}
+  	|> IO.inspect
   end
 
   defp modifyquestion(question, param) do
@@ -75,8 +79,8 @@ defmodule QuestionsFca.PageController do
   	  			question.text 
   	  				|> String.replace("{randimpl_a}", impl.a)
   	  				|> String.replace("{randimpl_b}", impl.b)}
-  	  		|> Map.put(:impl_a, impl.a)
-  	  		|> Map.put(:impl_b, impl.b)
+  	  		|> Map.put(:impl_a, impl.first)
+  	  		|> Map.put(:impl_b, impl.second)
   	end
   end
 
@@ -129,26 +133,52 @@ defmodule QuestionsFca.PageController do
   	end
   end
 
+  defp preload_question_assoc_impl(question) do
+  	if question.impl_a do
+  		{:ok, array} = JSON.decode(question.impl_a)
+  		query = from u in QuestionsFca.Attribute,
+  			where: u.name in ^array
+
+  		%{question | impl_a: Repo.all(query)}
+  	else
+  		question
+  	end
+  end
+
   # Loads all associations for a question
   defp preload_question_assoc(question) do
   	question
   	|> preload_question_assoc_obj
   	|> preload_question_assoc_attr
+  	|> preload_question_assoc_impl
+  end
+
+  defp store_assoc_rel(objid, attrid, newvalue \\ true) do
+  	query = from u in Link,
+		where: u.object_id == ^objid and u.attribute_id == ^attrid
+	tmp = Repo.one(query)
+	if tmp == nil do
+		Repo.insert!(%Link{object_id: objid, attribute_id: attrid, value: newvalue})
+	else
+		tmp 
+		|> Ecto.Changeset.change(value: newvalue)
+		|> Repo.update
+	end
   end
 
   # Store an answer with a fulfilled question
   defp store_assoc(answer, newvalue \\ true) do
   	if answer.question.obj && answer.question.attr do
-  		query = from u in Link,
-  			where: u.object_id == ^answer.question.obj.id and u.attribute_id == ^answer.question.attr.id
-  		tmp = Repo.one(query)
-  		if tmp == nil do
-  			Repo.insert!(%Link{object_id: answer.question.obj.id, attribute_id: answer.question.attr.id, value: newvalue})
-  		else
-  			tmp 
-  			|> Ecto.Changeset.change(value: newvalue)
-  			|> Repo.update
-  		end
+  		store_assoc_rel(answer.question.obj.id, answer.question.attr.id, newvalue)
+  	end
+
+  	answer
+  end
+
+  defp store_assoc_impl(answer) do
+  	if answer.question.impl_a do
+  		answer.question.impl_a
+  		|> Enum.map(fn(x) -> store_assoc_rel(answer.question.obj.id, x.id) end)
   	end
 
   	answer
@@ -157,14 +187,16 @@ defmodule QuestionsFca.PageController do
   # Will store the answer in a fca way
   defp store_fca(answer) do
   	case answer.question.category do
+  		-1 ->
+  			%{answer | question: %{answer.question | obj: Repo.insert!(%Object{name: answer.text})}}
   		0 ->
   			%{answer | question: %{answer.question | obj: Repo.insert!(%Object{name: answer.text})}} |> store_assoc
   		1 ->
   			%{answer | question: %{answer.question | attr: Repo.insert!(%Attribute{name: answer.text})}} |> store_assoc
   		2 ->
   			answer |> store_assoc(answer.text == "yes")
-  		_ ->
-  			answer |> IO.inspect
+  		3 ->
+  			%{answer | question: %{answer.question | obj: Repo.insert!(%Object{name: answer.text})}} |> store_assoc_impl
   	end
   end
 end

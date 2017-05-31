@@ -23,9 +23,11 @@ defmodule QuestionsFca.Question do
   end
 
   def defaultquestions do
-    [%{category: 0, header: "Object", text: "Name any object"},
+    [%{category: -1, header: "Object", text: "Name any object"},
+     %{category: 0, header: "Object", text: "Name any object"},
      %{category: 0, header: "Object", text: "Name any object with the attribute {randattr}"},
      %{category: 1, header: "Attribute", text: "Name any attribute that you associate with the object {randobj}"},
+     %{category: 1, header: "Attribute", text: "Name any attribute"},
      %{category: 2, header: "Relation", text: "Do you associate the attribute {randattr} with the object {randobj}? (yes/no)"},
      %{category: 3, header: "Implication", text: "Is it true that {randimpl_a} implies {randimpl_b}? If not, name an object that has the property {randimpl_a} but not {randimpl_b}."}]
   end
