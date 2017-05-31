@@ -1,0 +1,4043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConceptualSystem>
+  <Version MajorNumber="1" MinorNumber="0"/>
+  <Contexts>
+    <Context Identifier="0" Type="Binary">
+      <Attributes>
+        <Attribute Identifier="6">
+          <Name>Prime</Name>
+        </Attribute>
+        <Attribute Identifier="5">
+          <Name>gr. Sekunde</Name>
+        </Attribute>
+        <Attribute Identifier="4">
+          <Name>gr. Terz</Name>
+        </Attribute>
+        <Attribute Identifier="3">
+          <Name>kl. Terz</Name>
+        </Attribute>
+        <Attribute Identifier="2">
+          <Name>Quarte</Name>
+        </Attribute>
+        <Attribute Identifier="1">
+          <Name>Tritonus</Name>
+        </Attribute>
+        <Attribute Identifier="0">
+          <Name>kl. Sekunde</Name>
+        </Attribute>
+      </Attributes>
+      <Objects>
+        <Object>
+          <Name>c, d, d#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g, g#, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g, g#, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g, g#, a, b, h</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g#, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>Pause</Name>
+          <Intent>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, g, g#, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, g, g#, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, e, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, e, f, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f#, g, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f#, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, e, f, f#, g#, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d#, e, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, e, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, f#, g, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, d#, f, f#, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d#, f, f#, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, f, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e, f, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#, g</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f#, g, a, b</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, e, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, g, g#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f, f#</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, f, f#, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, d, e, f#, g, g#, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+        <Object>
+          <Name>c, c#, d, d#, e, g, a</Name>
+          <Intent>
+            <HasAttribute AttributeIdentifier="0"/>
+            <HasAttribute AttributeIdentifier="1"/>
+            <HasAttribute AttributeIdentifier="2"/>
+            <HasAttribute AttributeIdentifier="3"/>
+            <HasAttribute AttributeIdentifier="4"/>
+            <HasAttribute AttributeIdentifier="5"/>
+            <HasAttribute AttributeIdentifier="6"/>
+          </Intent>
+        </Object>
+      </Objects>
+    </Context>
+  </Contexts>
+</ConceptualSystem>

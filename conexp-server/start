@@ -1,0 +1,3 @@
+lein repl
+
+(load-file "calc_implications.clj")
